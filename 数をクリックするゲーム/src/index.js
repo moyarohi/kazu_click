@@ -18,7 +18,7 @@ for (var num = 9; num > 0; num--) {
   document.getElementById(num).style.left = "" + left_pos + "px";
   document.getElementById(num).style.top = "" + top_pos + "px";
 
-  var radius = 30 + Math.floor(Math.random() * 40);
+  var radius = 30 + Math.floor(Math.random() * 80);
   document.getElementById(num).style.borderRadius = "" + radius + "px";
   document.getElementById(num).style.height = "" + radius + "px";
   document.getElementById(num).style.width = "" + radius + "px";
